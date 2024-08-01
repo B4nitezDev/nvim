@@ -1,0 +1,31 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "typescript", "python"], 
+  "explorer.width": 30,
+  "coc.source.format.enable": true,
+  "languageserver": {
+    "tsserver": {
+      "command": "typescript-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["typescript", "typescriptreact"],
+      "initializationOptions": {
+        "preferences": {
+          "importModuleSpecifier": "non-relative",
+          "includePackageJsonAutoImports": "auto"
+        }
+      }
+    }
+  },
+  "coc.preferences.formatOnType": true,
+  "python.formatting.provider": "black",
+  "tsserver.formatOnSave": true,
+  "typescript.formatOnSave": true,
+  "prettier.enable": true,
+  "prettier.requireConfig": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
+}
+
